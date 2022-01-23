@@ -6,14 +6,8 @@
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
     "axios": "^0.25.0",
-    "babel-polyfill": "6.26.0",
-    "babel-preset-env": "1.7.0",
-    "babel-preset-es2015": "6.24.1",
-    "babel-preset-stage-2": "6.24.1",
-    "babel-preset-stage-3": "6.24.1",
-    "babel-register": "6.26.0",
-    "body-parser": "^1.19.0",
     "bootstrap": "5.1.3",
+    "buffer": "^6.0.3",
     "chai": "4.3.4",
     "chai-as-promised": "7.1.1",
     "chai-bignumber": "3.0.0",
@@ -25,12 +19,13 @@
     "react": "17.0.2",
     "react-bootstrap": "2.1.1",
     "react-dom": "17.0.2",
-    "react-scripts": "5.0.0",
+    "react-scripts": "4.0.3",
     "react-uuid": "^1.0.2",
     "truffle": "^5.0.5",
     "web3": "1.7.0"
   },
   "scripts": {
+    "migrate": "truffle migrate",
     "start": "react-scripts start",
     "server": "nodemon ./server.js",
     "build": "react-scripts build",
@@ -45,5 +40,13 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "@babel/plugin-transform-runtime": "^7.16.10",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "nodemon": "^2.0.15"
+  }
 }
