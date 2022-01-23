@@ -1,8 +1,8 @@
 {
-  "name": "eth-marketplace",
+  "name": "de-ims",
   "version": "0.1.0",
-  "description": "An Ethereum Marketplace",
-  "author": "gregory@dappuniversity.com",
+  "description": "Decentralised Identity Management System",
+  "author": "agrawalv4@gmail.com",
   "dependencies": {
     "@ant-design/icons": "^4.1.0",
     "axios": "^0.19.2",
